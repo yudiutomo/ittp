@@ -1,0 +1,73 @@
+/* Selector type */
+h1 {
+  color: red;
+}
+
+/* Selector class */
+.biru {
+  color: blue;
+}
+.hijau {
+  color: green;
+}
+.bgpink {
+  background-color: pink;
+}
+.bghijau {
+  background-color: green;
+}
+.bgbiru {
+  background-color: blue;
+}
+.bgmerah {
+  background-color: red;
+}
+.bgorange {
+  background-color: orange;
+}
+.bghitam {
+  background-color: black;
+}
+.bgcool {
+  background: linear-gradient(90deg, #000 0%, #b31717 52%, #fff 100%);
+}
+
+.rotasi {
+  -webkit-animation: rotate-scale-up 0.65s linear both;
+  animation: rotate-scale-up 0.65s linear both;
+}
+
+/* Selector pseudo class */
+a {
+  color: blue;
+}
+a:hover {
+  color: magenta;
+}
+
+/* Start Kotak */
+.kotak1 {
+  color: white;
+  background-color: black;
+  border: 5px solid red;
+  font-size: 11px;
+  padding: 10px;
+  margin: 10px;
+  width: 100px;
+}
+.kotak2 {
+  color: #eeeeee;
+  background-color: rgba(0, 0, 0, 1);
+  padding: 10px;
+  width: 200px;
+}
+/* End Kotak */
+
+/* Start Paragraph */
+.paragraph-sans {
+  font-family: Helvetica, Arial, sans-serif;
+}
+.paragraph-serif {
+  font-family: Georgia, "Times New Roman", serif;
+}
+/* End Paragraph */ ;
